@@ -4,6 +4,7 @@ import { SeriesComponent } from './pages/series/series.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 
 export const routes: Routes = [
+{ path: '', redirectTo: '/inicio',pathMatch:'full'},
     { path: 'peliculas', component: PeliculasComponent},
     { path: 'series', component: SeriesComponent},
     { path: 'inicio', component: InicioComponent},  
